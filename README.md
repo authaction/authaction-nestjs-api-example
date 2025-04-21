@@ -54,7 +54,7 @@ To obtain an access token via client credentials, run the following curl command
 
 ```bash
  curl --request POST \
---url https://your-authaction-tenant-domain/oauth/token \
+--url https://your-authaction-tenant-domain/oauth2/m2m/token \
 --header 'content-type: application/json' \
 --data '{"client_id":"your-authaction-app-clientid","client_secret":"your-authaction-app-client-secret","audience":"your-authaction-api-identifier","grant_type":"client_credentials"}'
 ```
